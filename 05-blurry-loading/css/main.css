@@ -1,0 +1,28 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    overflow: hidden;
+    margin: 0;
+}
+.bg-box{
+    background-image: url('../img/photo-1612151855475-877969f4a6cc.jpg');
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    position: absolute;
+    filter: blur(100px);
+}
+.loading-text{
+    font-size: 50px;
+    color: #fff;
+    font-family: sans-serif;
+    font-weight: bold;
+}
