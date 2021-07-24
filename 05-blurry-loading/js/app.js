@@ -1,5 +1,5 @@
-const loadText = document.querySelector('.loading-text');
 const bg = document.querySelector('.bg-box');
+const loadText = document.querySelector('.loading-text');
 
 let load = 0;
 let int = setInterval(blurry, 30);
